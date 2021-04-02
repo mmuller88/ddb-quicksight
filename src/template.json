@@ -1,0 +1,11 @@
+{
+  "SourceAnalysis": {
+    "Arn": "arn:aws:quicksight:us-east-1:981237193288:analysis/35c6dcea-ddd3-48e6-af01-f37857b30c7d",
+    "DataSetReferences": [
+      {
+        "DataSetPlaceholder": "martin-test-v1",
+        "DataSetArn": "arn:aws:quicksight:us-east-1:981237193288:dataset/d1a35afe-689c-43f6-8dd7-4bfeed6670dd"
+      }
+    ]
+  }
+}
