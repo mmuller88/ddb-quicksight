@@ -2,6 +2,8 @@
 
 The AWS CDK DynamoDB Athena QuickSight setup aims for maximum automation for setting up all needed resources, policies, roles and so on.
 
+This is part of the blogpost: https://martinmueller.dev/cdk-ddb-quicksight-eng
+
 # Helpful Resources
 
 - https://dev.to/jdonboch/finally-dynamodb-support-in-aws-quicksight-sort-of-2lbl As much as possible I tried to automate with AWS CDK but there are still manual steps you need to follow. A lot of them you find in that url.
