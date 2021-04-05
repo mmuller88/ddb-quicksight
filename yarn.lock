@@ -81,7 +81,7 @@
     "@aws-cdk/core" "1.96.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-dynamodb@^1.73.0", "@aws-cdk/aws-dynamodb@^1.95.1":
+"@aws-cdk/aws-dynamodb@^1.73.0", "@aws-cdk/aws-dynamodb@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-dynamodb/-/aws-dynamodb-1.96.0.tgz#25d0b23dd843ab7cf1e14fcb87ffe792877fc942"
   integrity sha512-Q8cpBG6RBR8YTKVqJ/L5WuHRHe2aJXaQhrGvFb7nxeamxsakH2MtumUFJX8DHV+zyYN1KHOaWonPYHC4UVjusw==
@@ -158,7 +158,7 @@
     "@aws-cdk/core" "1.96.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-iam@1.96.0", "@aws-cdk/aws-iam@^1.73.0", "@aws-cdk/aws-iam@^1.95.1":
+"@aws-cdk/aws-iam@1.96.0", "@aws-cdk/aws-iam@^1.73.0", "@aws-cdk/aws-iam@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-iam/-/aws-iam-1.96.0.tgz#6c179296e4d9d16ac596fadab6410ddc03ca4d34"
   integrity sha512-ikpmhDFgmhZmvU89aVon0BVtJS85ez/VqlE9Xvo3UBEKjoCt5ptvIX9tqbqlBp3FwKWvOEXVgKE81kn5OWvDWg==
@@ -177,7 +177,7 @@
     "@aws-cdk/cx-api" "1.96.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-lambda@1.96.0", "@aws-cdk/aws-lambda@^1.73.0", "@aws-cdk/aws-lambda@^1.95.1":
+"@aws-cdk/aws-lambda@1.96.0", "@aws-cdk/aws-lambda@^1.73.0", "@aws-cdk/aws-lambda@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-lambda/-/aws-lambda-1.96.0.tgz#f1288ebfb50ab23082a8996c67309dcdc310ee93"
   integrity sha512-U3j6ipy9gIrQEysE3jvSfBeBalkjxp6ZPNr3mOCECtgNcWhoHaoSmwwvGCvhbnsL6ZxjwwGH2Bm5raoWyeu9YQ==
@@ -220,7 +220,7 @@
   dependencies:
     "@aws-cdk/core" "1.96.0"
 
-"@aws-cdk/aws-s3-assets@1.96.0", "@aws-cdk/aws-s3-assets@^1.95.1":
+"@aws-cdk/aws-s3-assets@1.96.0", "@aws-cdk/aws-s3-assets@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-s3-assets/-/aws-s3-assets-1.96.0.tgz#1d786363fb6efd8b7903421603e14b898a9ce476"
   integrity sha512-NK9jD4+2BSSw3RKIWlzxDFZkinwtyWlMf1uxzbUKw8KuxpmuMhkx8OwWwKxM50BaNOKVAbBfXh8uhQTyCsQ4Zg==
@@ -233,7 +233,7 @@
     "@aws-cdk/cx-api" "1.96.0"
     constructs "^3.3.69"
 
-"@aws-cdk/aws-s3@1.96.0", "@aws-cdk/aws-s3@^1.73.0", "@aws-cdk/aws-s3@^1.95.1":
+"@aws-cdk/aws-s3@1.96.0", "@aws-cdk/aws-s3@^1.73.0", "@aws-cdk/aws-s3@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-s3/-/aws-s3-1.96.0.tgz#a6c79e83482c20cbd0c810dbf66030ae7cbaa567"
   integrity sha512-dqsjXJRaUK3u3Ij9RvR0N+xmfvQkiUHTL3Wxgg9WUqgG2Q0fO2lEcsKLvkc4B1isWMlBg3Dy9vY3fFZUke4gBg==
@@ -315,7 +315,7 @@
     string-width "^4.2.2"
     table "^6.0.9"
 
-"@aws-cdk/core@1.96.0", "@aws-cdk/core@^1.73.0", "@aws-cdk/core@^1.95.1":
+"@aws-cdk/core@1.96.0", "@aws-cdk/core@^1.73.0", "@aws-cdk/core@^1.96.0":
   version "1.96.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.96.0.tgz#7a3984c28bce6ff8e2b6d9d732b556b3edd7bfc6"
   integrity sha512-W8pAE2n9WgBDi0uHe0rUb95sVUe+rIe8pWZuHq60HhD5Omjb7qVxV5D95Z8TOkOrbLbCYJEUjsLV/ka0iqMOnQ==
@@ -662,16 +662,16 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@cloudcomponents/cdk-dynamodb-seeder@^1.31.0":
-  version "1.31.0"
-  resolved "https://registry.yarnpkg.com/@cloudcomponents/cdk-dynamodb-seeder/-/cdk-dynamodb-seeder-1.31.0.tgz#c8d67b65dfb4cfedf1912330fa9ced9bf32bc5b5"
-  integrity sha512-OwA4UsJMSyU6UNKLRPYZTZrhuvoC5elwWBsDIqWpm5CQAb/AgrYaKZZ3BBP5ThavBwvKYKmassKKTbs2XpPjHg==
+  version "1.32.0"
+  resolved "https://registry.yarnpkg.com/@cloudcomponents/cdk-dynamodb-seeder/-/cdk-dynamodb-seeder-1.32.0.tgz#b3ffa46f8f57e999c7b2447f28fa66db4a7054c1"
+  integrity sha512-BYTAe8qzERnJnXVEBQJL3nGzEUOH5Q75s3vir0AkWBK//44qdo4v//zdX/CW5T+uxBRPvh/dfI1iDyum3xICWw==
   dependencies:
-    "@aws-cdk/aws-dynamodb" "^1.95.1"
-    "@aws-cdk/aws-iam" "^1.95.1"
-    "@aws-cdk/aws-lambda" "^1.95.1"
-    "@aws-cdk/aws-s3" "^1.95.1"
-    "@aws-cdk/aws-s3-assets" "^1.95.1"
-    "@aws-cdk/core" "^1.95.1"
+    "@aws-cdk/aws-dynamodb" "^1.96.0"
+    "@aws-cdk/aws-iam" "^1.96.0"
+    "@aws-cdk/aws-lambda" "^1.96.0"
+    "@aws-cdk/aws-s3" "^1.96.0"
+    "@aws-cdk/aws-s3-assets" "^1.96.0"
+    "@aws-cdk/core" "^1.96.0"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
