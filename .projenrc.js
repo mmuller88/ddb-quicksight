@@ -12,6 +12,7 @@ const project = new AwsCdkTypeScriptApp({
     '@aws-cdk/aws-athena',
     '@aws-cdk/aws-s3',
     '@aws-cdk/aws-lambda',
+    '@aws-cdk/aws-glue',
     '@aws-cdk/aws-quicksight',
   ],
   deps: [

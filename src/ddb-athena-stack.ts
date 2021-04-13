@@ -7,14 +7,17 @@ import * as s3 from '@aws-cdk/aws-s3';
 import * as cdk from '@aws-cdk/core';
 import { DynamoDBSeeder, Seeds } from '@cloudcomponents/cdk-dynamodb-seeder';
 
+interface DdbAthenaStackProps extends cdk.StackProps {
+  readonly tableName: string;
+}
 
 export class DdbAthenaStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props: cdk.StackProps = {}) {
+  constructor(scope: cdk.Construct, id: string, props: DdbAthenaStackProps) {
     super(scope, id, props);
 
     // const table = dynamodb.Table.fromTableArn(this, 'Table', 'arn:aws:lambda:eu-central-1:918366877282:dynamodb:martin-test-v1');
     const table = new dynamodb.Table(this, 'Table', {
-      tableName: 'testtable',
+      tableName: props.tableName,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       partitionKey: { name: 'ID', type: dynamodb.AttributeType.STRING },
     });

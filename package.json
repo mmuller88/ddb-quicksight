@@ -42,6 +42,7 @@
     "@aws-cdk/assert": "^1.73.0",
     "@aws-cdk/aws-athena": "^1.73.0",
     "@aws-cdk/aws-dynamodb": "^1.73.0",
+    "@aws-cdk/aws-glue": "^1.73.0",
     "@aws-cdk/aws-iam": "^1.73.0",
     "@aws-cdk/aws-lambda": "^1.73.0",
     "@aws-cdk/aws-quicksight": "^1.73.0",
