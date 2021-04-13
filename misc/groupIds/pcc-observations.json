@@ -1,0 +1,81 @@
+{
+  "ID": {
+    "S": "user-1504966781-434593"
+  },
+  "Kind": {
+    "S": "observation-39861594"
+  },
+  "unit": {
+    "S": "%"
+  },
+  "recordedDate": {
+    "S": "2016-06-04T07:35:00.000Z"
+  },
+  "GroupSort": {
+    "S": "2016-06-04T07:35:00.000Z"
+  },
+  "methodCode": {
+    "M": {
+      "codings": {
+        "L": [
+          {
+            "M": {
+              "code": {
+                "S": "59410-1"
+              },
+              "display": {
+                "S": "Oxygen saturation^on room air"
+              },
+              "system": {
+                "S": "http://loinc.org"
+              },
+              "version": {
+                "S": "2.68"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "warnings": {
+    "NULL": true
+  },
+  "GroupID": {
+    "S": "pcc-observations"
+  },
+  "method": {
+    "S": "Room Air"
+  },
+  "patientId": {
+    "N": "434593"
+  },
+  "recordedBy": {
+    "S": "jhein"
+  },
+  "value": {
+    "N": "97"
+  },
+  "observationId": {
+    "N": "39861594"
+  },
+  "systolicValue": {
+    "NULL": true
+  },
+  "unitCode": {
+    "M": {
+      "code": {
+        "S": "%"
+      },
+      "system": {
+        "S": "http://unitsofmeasure.org"
+      }
+    }
+  },
+  "diastolicValue": {
+    "NULL": true
+  },
+  "type": {
+    "S": "oxygenSaturation"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "ID": {
+    "S": "user-1504966781-102240"
+  },
+  "Kind": {
+    "S": "medication-4467699"
+  },
+  "ddId": {
+    "N": "0"
+  },
+  "endDate": {
+    "NULL": true
+  },
+  "orderId": {
+    "N": "4467699"
+  },
+  "status": {
+    "S": "DISCONTINUED"
+  },
+  "GroupSort": {
+    "S": "102240"
+  },
+  "strength": {
+    "NULL": true
+  },
+  "administration": {
+    "M": {
+      "route": {
+        "M": {
+          "coding": {
+            "L": [
+              {
+                "M": {
+                  "code": {
+                    "S": "by_mouth"
+                  },
+                  "display": {
+                    "S": "by mouth"
+                  },
+                  "system": {
+                    "S": "https://pointclickcare.com/system/administration-route"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "generic": {
+    "NULL": true
+  },
+  "residentName": {
+    "S": "Kimbrell Arica"
+  },
+  "GroupID": {
+    "S": "pcc-medications"
+  },
+  "clientId": {
+    "N": "102240"
+  },
+  "schedules": {
+    "L": [
+      {
+        "M": {
+          "directions": {
+            "S": "scrubbed"
+          },
+          "dose": {
+            "S": "81"
+          },
+          "doseUOM": {
+            "S": "mg"
+          },
+          "endDateTime": {
+            "NULL": true
+          },
+          "frequency": {
+            "S": "one time a day"
+          },
+          "indicationsForUse": {
+            "S": "scrubbed"
+          },
+          "lastAdministration": {
+            "M": {
+              "administeredAmount": {
+                "NULL": true
+              },
+              "administeredBy": {
+                "NULL": true
+              },
+              "administeredDateTime": {
+                "NULL": true
+              },
+              "code": {
+                "NULL": true
+              },
+              "codeDescription": {
+                "NULL": true
+              },
+              "endDateTime": {
+                "NULL": true
+              }
+            }
+          },
+          "scheduleType": {
+            "S": "Everyday"
+          },
+          "startDateTime": {
+            "S": "2013-06-08T13:00:00.000Z"
+          }
+        }
+      }
+    ]
+  },
+  "directions": {
+    "S": "scrubbed"
+  },
+  "narcotic": {
+    "BOOL": false
+  },
+  "controlledSubstanceCode": {
+    "S": "0"
+  },
+  "residentNumber": {
+    "S": "93988"
+  },
+  "pnId": {
+    "N": "1426"
+  },
+  "startDate": {
+    "S": "2013-06-08T13:00:00.000Z"
+  },
+  "strengthUOM": {
+    "NULL": true
+  },
+  "description": {
+    "S": "scrubbed"
+  },
+  "rxNormId": {
+    "NULL": true
+  }
+}

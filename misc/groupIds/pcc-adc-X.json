@@ -1,0 +1,45 @@
+{
+  "ID": {
+    "S": "ADC-11524123"
+  },
+  "Kind": {
+    "S": "details"
+  },
+  "directives": {
+    "L": [
+      {
+        "S": "Cardiopulmonary Resuscitation"
+      }
+    ]
+  },
+  "communicationMethod": {
+    "S": "Verbal"
+  },
+  "advanceDirectivesConsentId": {
+    "N": "11524123"
+  },
+  "status": {
+    "S": "active"
+  },
+  "GroupSort": {
+    "S": "2016-03-07T21:50:00.000Z"
+  },
+  "GroupID": {
+    "S": "pcc-adc-66987"
+  },
+  "orderDate": {
+    "S": "2016-03-07T21:50:00.000Z"
+  },
+  "patientId": {
+    "N": "66987"
+  },
+  "orderedBy": {
+    "S": "Perales, Danette"
+  },
+  "description": {
+    "S": "scrubbed"
+  },
+  "orderedById": {
+    "N": "1909"
+  }
+}

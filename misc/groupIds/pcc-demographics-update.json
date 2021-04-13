@@ -1,0 +1,17 @@
+{
+  "ID": {
+    "S": "user-120402"
+  },
+  "Kind": {
+    "S": "demographics-update"
+  },
+  "GroupSort": {
+    "S": "2021-02-25T23:49:19Z-6wbv"
+  },
+  "GroupID": {
+    "S": "pcc-demographics-update"
+  },
+  "PatientType": {
+    "S": "pcc-user"
+  }
+}

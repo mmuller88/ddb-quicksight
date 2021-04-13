@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
 import * as glue from '@aws-cdk/aws-glue';
 import * as cdk from '@aws-cdk/core';
 
